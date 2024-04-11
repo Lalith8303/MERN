@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px;
+    box-sizing: border-box;
+}
+.bg{
+   background-image:url(https://ik.imagekit.io/em9ewcgec/HD-wallpaper-anime-food-aesthetic.jpg?updatedAt=1712256328049);
+    background-size: contain;
+    height: 900px;
+    background-repeat: no-repeat;
+}
