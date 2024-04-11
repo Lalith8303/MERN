@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <!-- <section class="bg-red-500 h-[10vh]">
+            <p>Nav Bar</p>
+    </section> -->
+
+    <div class="2xl:container">
+        <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2">
+
+            <div class="flex justify-between">
+                <img src="./assets/lungs.png" alt="logo" class="h-[50px]"/>
+                <p class="font-['Roboto'] text-[22px] font-bold text-[#6f887e]">Lung Cancer Detection Using Transfer Learning</p>
+
+                <div >
+                    <svg class="md:hidden"
+        viewbox="0 0 1024 1024"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+      id="menuIcon"
+      
+    >
+      <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" />
+                    </svg>
+
+
+                     <svg class="hidden md:hidden"
+      viewBox="0 0 21 21"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+      id="crossIcon"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M15.5 15.5l-10-10zM15.5 5.5l-10 10" />
+      </g>
+                     </svg>
+                </div>
+            </div>
+            <div id="ulElement"  class="hidden md:block">
+                <ul class=" flex flex-col justify-center items-center md:flex-row md:justify-end md:items-center gap-4">
+                    <li>
+                        <p class="font-['Roboto'] text-[18px] font-bold text-[#6f887e]">Home</p>
+                    </li>
+                    <li>
+                        <p class="font-['Roboto'] text-[18px] font-bold text-[#6f887e]">About</p>
+                    </li>
+                    <li>
+                        <p class="font-['Roboto'] text-[18px] font-bold text-[#6f887e]">Contact</p>
+                    </li>
+                </ul>
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+    <script>
+        const menuIcon = document.getElementById('menuIcon');
+        const ulElement = document.getElementById('ulElement');
+
+        menuIcon.addEventListener('click', () => {
+            ulElement.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            crossIcon.classList.toggle('hidden');
+        })
+
+        const crossIcon = document.getElementById('crossIcon');
+        crossIcon.addEventListener('click', () => {
+            ulElement.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            crossIcon.classList.toggle('hidden');
+            
+        })
+    </script>
+
+    <section class="bg">
+        
+            <div class="2xl:container  h-[100%]">
+                <div class=" w-[70%]  mx-auto grid grid-cols-1 h-[100%] ">
+                    
+                </div>
+            </div>
+        
+    </section>
+
+
+    <section class="py-5">
+        <div class="2xl:container">
+            <div class="w-[70%] mx-auto grid grid-cols-1 space-y-2">
+                <div>
+                    <h1 class="font-['Roboto'] font-bold text-[28px] text-[#194232]">
+                        Why Choose Us ?
+                    </h1>
+                </div>
+                <div>
+                    <p class="font-['Roboto'] text-[16px] text-[#194232] "">
+                        Early detection of lung cancer increases treatment success rates and improves patient outcomes, potentially saving lives by enabling timely interventions and personalized treatment plans. Additionally, it allows for the implementation of preventive measures, such as lifestyle changes and regular screenings, to reduce the risk of developing advanced-stage lung cancer. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Why Choose Us-->
+    <section class=" py-5">
+                        <div class="2xl:container ">
+                            <div class="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+                                <div
+                                    class="flex flex-col items-center rounded-lg shadow-xl  ring-1 ring-gray-200 p-5 gap-2">
+                                    <div>
+                                        <img src="./assets/magnifying glass.png"
+                                            alt="fppd" class="h-[100px]"/>
+                                    </div>
+                                    <div>
+                                        <p class="font-['Roboto'] text-[22px] font-medium text-[#6f887e]">Classify
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-center font-['Roboto'] text-[16px] font-light">Lung cancer is classified into non-small cell lung cancer (NSCLC) and small cell lung cancer (SCLC), each with distinct characteristics and treatment approaches, guiding personalized patient care and prognosis
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex flex-col items-center rounded-lg shadow-xl  ring-1 ring-gray-200 p-5 gap-2">
+                                    <div>
+                                        <img src="./assets/stetescope.png"
+                                            alt="fppd" class="h-[100px]">
+                                    </div>
+                                    <div>
+                                        <p class="font-['Roboto'] text-[22px] font-medium text-[#6f887e]">Treatment</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-center font-['Roboto'] text-[16px] font-light">Treatment for lung cancer varies based on the type and stage of the cancer but commonly includes surgery, chemotherapy, radiation therapy, targeted therapy, immunotherapy, or a combination of these modalities, with the goal of removing or shrinking tumors, preventing recurrence, and improving quality of life.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex flex-col items-center rounded-lg shadow-xl ring-1 ring-gray-200 p-5 gap-2">
+                                    <div>
+                                        <img src="./assets/saving.png"
+                                            alt="fppd" class="h-[100px]">
+                </div>
+                <div>
+                    <p class=" font-['Roboto'] text-[22px] font-medium text-[#6f887e]">Other Lung Diseases
+                    </p>
+                </div>
+                <div>
+                    <p class="text-center font-['Roboto'] text-[16px] font-light">Other lung diseases encompass a broad spectrum of conditions, including chronic obstructive pulmonary disease (COPD), asthma, pneumonia, bronchitis, pulmonary fibrosis, tuberculosis, and lung infections, each requiring specific diagnostic approaches and treatments tailored to the underlying pathology and individual patient needs. </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="py-15">
+        <div class="2xl:container">
+            <div class="w-[70%] mx-auto grid grid-cols-1 ">
+                <div>
+                    <h1 class="font-['Roboto'] font-bold text-[28px] text-[#194232]">
+                        Explore Menu
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- 2xl:container -->
+    <section class="py=5">
+
+        <div class="2xl:container ">
+            <div class="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-5">
+
+                <!-- Card Start -->
+                <div class="bg-[#ffffff]  rounded-xl shadow-xl p-3 ring-1 ring-gray-200 space-y-2">
+
+                    <img src="./assets/covid19-fp.avif"
+                        class="rounded-2xl w-100">
+                    <h1 class="font-['Roboto']  text-[18px] text-[#323f4b]"> Covid-19</h1>
+                    <div class="flex">
+                        <p class="text-[14px] text-[#d5ba1c]">View More</p>
+                        <img src />
+                    </div>
+                </div>
+                <!--Card End-->
+                <div class="bg-[#ffffff]  rounded-xl shadow-xl p-3 ring-1 ring-gray-200 space-y-2">
+
+                    <img src="./assets/pneumonia.jpeg"
+                        class="rounded-2xl w-100">
+                    <h1 class="font-['Roboto']  text-[18px] text-[#323f4b]"> Pneumonia</h1>
+                    <div class="flex">
+                        <p class="text-[14px] text-[#d5ba1c]">View More</p>
+                        <img src />
+                    </div>
+                </div>
+
+                <div class="bg-[#ffffff]  rounded-xl shadow-xl p-3 ring-1 ring-gray-200 space-y-2">
+
+                    <img src="./assets/Lungcancer1.jpg"
+                        class="rounded-2xl w-100">
+                    <h1 class="font-['Roboto']  text-[18px] text-[#323f4b]"> Lung Cancer</h1>
+                    <div class="flex">
+                        <p class="text-[14px] text-[#d5ba1c]">View More</p>
+                        <img src />
+                    </div>
+                </div>
+                <!--Card End-->
+
+                <!-- Card Start -->
+                <div class="bg-[#ffffff]  rounded-xl shadow-xl p-3 ring-1 ring-gray-200 space-y-2">
+
+                    <img src="./assets/Tuberculosis.webp"
+                        class="rounded-2xl w-100">
+                    <h1 class="font-['Roboto']  text-[18px] text-[#323f4b]"> Tuberculosis</h1>
+                    <div class="flex">
+                        <p class="text-[14px] text-[#d5ba1c]">View More</p>
+                        <img src />
+                    </div>
+                </div>
+                <!--Card End-->
+
+
+                
+
+
+            </div>
+    </section>
+
+    <!--2xl:container ENDING-->
+
+    <section class="py-10">
+        <div class="2xl:container bg-[#00857c]">
+            <div class="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2  flex">
+                <div class="flex flex-col items-center">
+                    <img src="./assets/end1.png"
+                        alt="some text" class="h-[300px] py-5" />
+                </div>
+                <div class="space-y-4">
+                    <h class="font-['Roboto'] font-bold text-[28px] text-white">Get Results in minutes</h>
+                    <p class="font-['Roboto'] text-[16px] text-white font-light text-center">Finding lung cancer in minutes using transfer learning involves utilizing pre-trained deep learning models on large datasets of medical images such as chest X-rays or CT scans, fine-tuning them with smaller, labeled datasets specific to lung cancer cases, allowing for rapid and accurate detection of cancerous lesions or abnormalities in lung imaging, expediting diagnosis and treatment decisions.</p>
+
+                        <button class="bg-[#d0b200] text-white p-4 rounded-xl font-['Roboto'] font-bold text-[16px]">Upload CT image</button>    
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
